@@ -1,3 +1,5 @@
+//automated testing - this tests all your functions to make sure it works without having to test it manually yourself
+
 {
   const mockRandom = (...nums) => {
     nums = nums.map(num => (num - 1) / 10);
